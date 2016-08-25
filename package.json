@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "playing with new tools",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files='*.html,src/css/*.css,src/js/*.js'",
+    "sass": "node-sass src/scss/main.scss src/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosalsm/Test.git"
+  },
+  "author": "Rosa Lopez Sanchez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rosalsm/Test/issues"
+  },
+  "homepage": "https://github.com/rosalsm/Test#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "bower": "^1.7.9",
+    "browser-sync": "^2.12.5",
+    "node-sass": "^3.6.0",
+    "wiredep": "^4.0.0"
+  }
+}

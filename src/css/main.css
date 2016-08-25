@@ -77,6 +77,22 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.gettingEvents {
+  margin-top: 100px; }
+
+.square {
+  width: 150px;
+  height: 150px;
+  margin: 1rem 0 2rem 1rem;
+  background-color: blue;
+  /*transition-property : all;
+	transition-duration: 5s;*/
+  transition: all 3s; }
+
+#circle .change {
+  border-radius: 50%;
+  background-color: yellow; }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

@@ -1,0 +1,27 @@
+{
+  "name": "test",
+  "description": "playing with new tools",
+  "main": "index.html",
+  "authors": [
+    "Rosa Lopez Sanchez"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/rosalsm/Test",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "~4.1.1",
+    "modernizr": "^3.3.1",
+    "jquery": "^2.2.3",
+    "angular": "^1.5.5",
+    "font-awesome": "^4.6.1",
+    "bootstrap": "^3.3.6"
+  }
+}

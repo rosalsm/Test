@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 
-  //try that when the sesrver is working
+  //try that when the server is working
   $("#button").click(function(event){
     $.getJSON("URL", function(rs){
       $("#result").html("<p> Artist: + rs.artist + </p>");
@@ -12,6 +12,8 @@ $(document).ready(function(){
 
   });
 
-
+  $('#changing').on('click', function(){
+    $('#changing').toggleClass('change');
+  });
 
 });
